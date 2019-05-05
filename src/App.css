@@ -3,6 +3,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: black;
 }
 
 body, input {
@@ -13,11 +14,12 @@ body, input {
 .time-text-label {
   font-size: 2rem;
   line-height: 1;
-  margin: 15% 20% 0% 0%;
+  margin: 100% 20% 0% 0%;
+  color: #a3a3a3;
 }
 
 .time-count {
-  color: #727272;
+  color: white;
   margin: 0% 20% 0% 0%;
   font-size: 6rem;
   line-height: 1;
@@ -27,6 +29,7 @@ body, input {
 .quote-label {
   font-size: 1.2rem;
   line-height: 1;
-  margin: 0;
-  font-style:italic;
+  margin: 2% 0 0 0;
+  font-style: italic;
+  color: honeydew;
 }
